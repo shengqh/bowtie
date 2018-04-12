@@ -7,3 +7,9 @@ Bowtie: http://bowtie-bio.sf.net
  - See NEWS for information about changes in this and previous versions
    of Bowtie.
  - See TUTORIAL for a quick example to get you started with Bowtie.
+
+This version is modified by Quanhu Sheng to be compiled in ACCRE system.
+```
+module load tbb/.2017_U5
+make LDFLAGS="-L/scratch/cqs/shengq2/local/lib"
+```
